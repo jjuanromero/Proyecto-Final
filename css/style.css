@@ -1,0 +1,144 @@
+/*nesting*/
+/*nesting*/
+header {
+  background-color: black;
+}
+header img {
+  width: 320px;
+  height: 120px;
+}
+
+/* Ajustes responsive */
+@media screen and (max-width: 475px) {
+  .h2 {
+    font-size: 20px;
+  }
+}
+/*Acerca de mi*/
+#acerca-de-mi {
+  float: right;
+  background: linear-gradient(#d853cd, #4ab4e6);
+  height: auto;
+  padding: 5px;
+}
+#acerca-de-mi h2 {
+  color: white;
+  text-shadow: 1px 1px 2px #626262;
+  text-align: center;
+  font-family: var(--font-titulos);
+  font-style: var(--style-titulos);
+  font-size: var(--size-titulos);
+}
+#acerca-de-mi div {
+  display: flex;
+}
+#acerca-de-mi div .texto-descripcion {
+  padding: 10px;
+  font-size: var(--size-textos);
+  color: white;
+  font-family: var(--font-textos);
+}
+
+/*Representaciones*/
+#representaciones {
+  background: linear-gradient(#e6e6e6, #bbbbbb);
+}
+#representaciones h2 {
+  text-align: center;
+  color: black;
+  font-size: var(--size-titulos);
+  font-family: var(--font-titulos);
+  font-style: var(--style-titulos);
+}
+#representaciones .carousel {
+  width: auto;
+  height: auto;
+  align-items: center;
+}
+
+/*Fin representaciones*/
+/*Zona comercial*/
+#zona-comercial {
+  background: linear-gradient(#b81af6, #599acf);
+  font-size: var(--size-titulos);
+  font-family: var(--font-titulos);
+  font-style: italic;
+  color: white;
+  text-shadow: #626262;
+  text-align: center;
+}
+#zona-comercial h2 {
+  color: white;
+  text-shadow: 1px 1px 2px #626262;
+  text-align: center;
+  font-family: var(--font-titulos);
+  font-style: var(--style-titulos);
+  font-size: var(--size-titulos);
+}
+#zona-comercial .zonas-container {
+  display: flex;
+}
+#zona-comercial .black {
+  padding: 10px;
+  font-size: var(--size-textos);
+  color: white;
+  font-family: var(--font-textos);
+  color: black;
+}
+#zona-comercial .img-zona {
+  width: 300px;
+  height: 300px;
+}
+#zona-comercial .flex-container :hover {
+  transform: scale(1.1);
+  transition: all 2s;
+}
+
+/*Fin zona comercial*/
+/*Logistica*/
+#logistica h2 {
+  text-align: center;
+  color: black;
+  font-size: var(--size-titulos);
+  font-family: var(--font-titulos);
+  font-style: var(--style-titulos);
+}
+#logistica div {
+  display: flex;
+  align-items: left;
+  flex-wrap: wrap;
+  font-size: var(--size-textos);
+  font-family: var(--font-textos);
+}
+
+/*Fin logistica*/
+/*Contacto*/
+#contacto h2 {
+  text-align: center;
+  color: black;
+  font-size: var(--size-titulos);
+  font-family: var(--font-titulos);
+  font-style: var(--style-titulos);
+}
+
+/*Fin Contacto*/
+/*wpp logo*/
+.item-fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+li a:hover {
+  background-color: #9e9e9e;
+}
+
+:root {
+  --size-textos: 30px;
+  --font-textos: "Open Sans", sans-serif;
+  --size-titulos: 80px;
+  --font-titulos: "Bebas Neue", cursive;
+  --style-titulos: italic;
+}
+
+/*# sourceMappingURL=style.css.map */

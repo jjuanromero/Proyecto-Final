@@ -1,0 +1,135 @@
+/* Ajustes responsive */
+@media screen and (max-width:475px) {
+    .h2 {
+        font-size: 20px;
+    }
+    }
+/*Acerca de mi*/
+#acerca-de-mi {
+    float: right;
+    background: linear-gradient(rgb(216, 83, 205), rgb(74, 180, 230));
+    height: auto;
+    padding: 5px;
+    h2 {  color: white;
+        text-shadow: 1px 1px 2px rgb(98, 98, 98);
+        text-align: center;
+        font-family: var(--font-titulos);
+        font-style: var(--style-titulos);
+        font-size: var(--size-titulos);
+
+    }
+    div { display: flex;
+    
+    .texto-descripcion {
+        padding: 10px;
+        font-size: var(--size-textos);
+        color: white;
+        font-family: var(--font-textos);
+
+    }
+        
+    
+     }       
+}
+
+/*Representaciones*/
+#representaciones {
+    background: linear-gradient(rgb(230, 230, 230), rgb(187, 187, 187));
+    h2 {text-align: center;
+        color: black;
+       font-size: var(--size-titulos);
+        font-family: var(--font-titulos);
+        font-style: var(--style-titulos)
+        
+    }
+    .carousel { 
+        width: auto;
+        height: auto;
+        align-items: center;
+    
+    }
+}
+/*Fin representaciones*/
+
+
+/*Zona comercial*/
+#zona-comercial { background: linear-gradient(rgb(184, 26, 246), rgb(89, 154, 207));
+    font-size: var(--size-titulos);
+    font-family: var(--font-titulos);
+    font-style: italic;
+    color: white;
+    text-shadow: rgb(98, 98, 98);
+    text-align: center;
+    h2 {
+        color: white;
+    text-shadow: 1px 1px 2px rgb(98, 98, 98);
+    text-align: center;
+    font-family: var(--font-titulos);
+    font-style: var(--style-titulos);
+    font-size: var(--size-titulos);
+    }
+    .zonas-container  {
+        display: flex;
+        }
+        .black {
+            padding: 10px;
+    font-size: var(--size-textos);
+    color: white;
+    font-family: var(--font-textos);
+            color: black;
+        }
+     .img-zona {
+            width:300px;
+             height:300px;
+        
+        }
+        .flex-container :hover {
+            transform: scale(1.1);
+            transition: all 2s;
+        }
+
+}
+/*Fin zona comercial*/
+
+/*Logistica*/
+#logistica {
+    h2 {
+        text-align: center;
+    color: black;
+   font-size: var(--size-titulos);
+    font-family: var(--font-titulos);
+    font-style: var(--style-titulos)
+    }
+    div {
+        display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+    font-size: var(--size-textos);
+    font-family: var(--font-textos);
+
+    }
+}
+/*Fin logistica*/
+
+
+/*Contacto*/
+#contacto {
+    h2 {
+        text-align: center;
+    color: black;
+   font-size: var(--size-titulos);
+    font-family: var(--font-titulos);
+    font-style: var(--style-titulos)
+    }
+}
+/*Fin Contacto*/
+
+/*wpp logo*/
+.item-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+li a:hover {
+    background-color: #9e9e9e;
+  }

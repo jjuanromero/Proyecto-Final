@@ -21,6 +21,14 @@ header img {
   height: auto;
   padding: 5px;
 }
+#acerca-de-mi h1 {
+  color: black;
+  text-shadow: 1px 1px 2px #626262;
+  text-align: center;
+  font-family: var(--font-textos);
+  font-style: var(--font-textos);
+  font-size: 60px;
+}
 #acerca-de-mi h2 {
   color: white;
   text-shadow: 1px 1px 2px #626262;

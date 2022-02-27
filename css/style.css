@@ -1,5 +1,10 @@
-/*nesting*/
-/*nesting*/
+:root{
+  --size-textos: 30px;
+  --font-textos: 'Open Sans', sans-serif; 
+  --size-titulos: 80px;
+  --font-titulos: 'Bebas Neue', cursive;
+  --style-titulos: italic;
+}
 header {
   background-color: black;
 }
@@ -10,10 +15,46 @@ header img {
 
 /* Ajustes responsive */
 @media screen and (max-width: 475px) {
-  .h2 {
-    font-size: 20px;
+  .img-zona {
+    width: 240px;
+    height: 240px;
+    
   }
 }
+@media screen and (max-width: 475px) {
+  .imagen-papa {
+    display: none;
+  }
+}
+
+
+
+/*descripcion y objetivo */
+/* .descripcion-corta {
+  padding-bottom: 794px; 
+  background: linear-gradient(#4ab4e6, #d853cd);
+}
+
+.titulo {
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.parrafo-descriptivo {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  top:50%;
+} */
+/* Fin descripcion y objetivo */
+
+
+
+
+
+
+
 /*Acerca de mi*/
 #acerca-de-mi {
   float: right;
@@ -21,15 +62,20 @@ header img {
   height: auto;
   padding: 5px;
 }
-#acerca-de-mi h1 {
+.imagen-papa {
+  width: 419px;
+  height: 543px;
+}
+#acerca-de-mi  {
   color: black;
   text-shadow: 1px 1px 2px #626262;
   text-align: center;
   font-family: var(--font-textos);
   font-style: var(--font-textos);
   font-size: 60px;
+  padding-bottom: 20px;
 }
-#acerca-de-mi h2 {
+.texto-titulo {
   color: white;
   text-shadow: 1px 1px 2px #626262;
   text-align: center;
@@ -51,10 +97,10 @@ header img {
 #representaciones {
   background: linear-gradient(#e6e6e6, #bbbbbb);
 }
-#representaciones h2 {
+.negro {
   text-align: center;
   color: black;
-  font-size: var(--size-titulos);
+  font-size: 50px;
   font-family: var(--font-titulos);
   font-style: var(--style-titulos);
 }
@@ -97,9 +143,11 @@ header img {
   width: 300px;
   height: 300px;
 }
+@media screen and (min-width: 800px) {
 #zona-comercial .flex-container :hover {
   transform: scale(1.1);
   transition: all 2s;
+} 
 }
 
 /*Fin zona comercial*/
@@ -117,6 +165,11 @@ header img {
   flex-wrap: wrap;
   font-size: var(--size-textos);
   font-family: var(--font-textos);
+}
+@media screen and (max-width: 475px) {
+  #logistica div {
+    font-size: 20px;
+  }
 }
 
 /*Fin logistica*/
@@ -141,12 +194,5 @@ li a:hover {
   background-color: #9e9e9e;
 }
 
-:root {
-  --size-textos: 30px;
-  --font-textos: "Open Sans", sans-serif;
-  --size-titulos: 80px;
-  --font-titulos: "Bebas Neue", cursive;
-  --style-titulos: italic;
-}
 
-/*# sourceMappingURL=style.css.map */
+
